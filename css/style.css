@@ -1,5 +1,7 @@
 body{
 	margin: 0 auto;
+	max-width: 2000px;
+	min-width: 320px;
 }
 .mainScreen{
 	display: flex;
@@ -9,6 +11,7 @@ body{
 	background: url(../img/1.png);
 	background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .menu{
 	display: flex;
@@ -24,14 +27,14 @@ header{
 }
 header h4{
 	margin: 0;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: segoe print;
 	font-weight: bold;
 	color: red;
 }
 header h5{
 	margin-left: 10px;
-	font-size: 20px;
+	font-size: 15px;
 	color: white;
 	font-weight: 100;
 	font-family: 'Poppins', sans-serif;
@@ -57,7 +60,7 @@ nav ul{
     list-style: none;
 }
 nav ul li{
-	margin-left: 30px;
+	margin-left: 10px;
     color: #fff;
 }
 li a{
@@ -71,20 +74,20 @@ li a{
  	display: flex;
  	align-items: center;
  	text-align: center;
- 	width: 240px;
+ 	width: 180px;
  	height: 35px;
  	margin-left:  15px;
- 	margin-right: 10px;
+ 	margin-right: 20px;
  	list-style: none;
  	outline: none;
  	font-size: 15px;
  	border-radius: 50px;
- 	border: 3px solid rgba(22,25,25,0.8);
+ 	border: 1px solid rgba(22,25,25,0.8);
  	background: #fff;
 }
 .formBox input{
-	width: 190px;
- 	height: 33px;
+	width: 145px;
+ 	height: 35px;
  	list-style: none;
 	outline: none;
  	font-size: 15px;
@@ -101,13 +104,13 @@ li a{
 	position: relative;
 	right: -10px;
 	width: 41px;
-	height: 41px;
+	height: 37px;
 	margin: -10px;
 	cursor: pointer;
 	outline: none;
 	background: #4b66de;
 	border-radius: 0px 51px 51px 0px;
- 	border: 3px solid rgb(68, 70, 71);
+ 	border: 1px solid rgb(68, 70, 71);
  	border-left-width: 0px;	
 }
 .formBox img{
@@ -121,28 +124,22 @@ hr{
 	border: none;
 	margin:0;
 }
-.mainBox {
-	display: flex;
-	flex-direction: column;
-	align-items: 	flex-end;	
-	width: 40%;
+.mainBox {	
+	width: 100%;
 	margin-top: 200px;
-	margin-left: 100px;
 	margin-bottom: 100px;
 }
 .mainBox h1{
 	font-family: lucida console;
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 .mainBox h2{
 	font-family: lucida console;
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 .mainBox button{
-	width: 250px;
-	height: 70px;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -151,15 +148,26 @@ hr{
 	background: #8824cd;
 }
 .mainBox button p{
-	font-size: 20px;
+	margin: 0;
+	padding: 22px;
+	font-size: 15px;
 	font-weight: 100;
 }
 .mainBox h6{
 	margin-top: 5px;
-	font-size: 20px;
+	font-size: 15px;
+	padding-bottom: 200px;
 	font-weight: 300;
 	font-family: segoe ui;
 	color: white;
+}
+.mainBox1{
+	display: flex;
+	flex-direction: column;
+	align-items: 	flex-end;
+	width: 50%;
+	margin-left: 20%
+	margin-right: 30%;
 }
 .pinkBox{
 	background-color: #c3536a;
@@ -199,6 +207,10 @@ hr{
 	color: #fff;
 	font-family: segoe ui;
 	text-align: justify;
+}
+.pipcka{
+	position: relative;
+	top: 134px;
 }
 .twoBox1{
 	display: flex;
