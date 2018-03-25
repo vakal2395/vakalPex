@@ -246,9 +246,6 @@ hr{
 	cursor: pointer;
 	border-radius: 50px;
 	background: #fff;
-}
-.twoBox1 button h1{
-	margin: 0;
 	color: #c15167;
 	font-size: 20px;
 }
@@ -333,9 +330,6 @@ hr{
 	text-align: center;
 	border-radius: 50px;
 	background: #8824cd;
-}
-.violetBox2 button p{
-	margin: 0;
 	color: #fff;
 	font-size: 20px;
 }
@@ -362,6 +356,9 @@ hr{
 	border: solid 2px #fff;
 	color: #fff;
 	background: rgba(255,255,255,0.1);
+	color: #fff;
+	font-size: 10px;
+	font-weight: 100;
 }
 .foodBox1 h6{
 	font-family: segoe ui;
